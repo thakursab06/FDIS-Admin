@@ -1,0 +1,67 @@
+{
+  "name": "fdis",
+  "version": "1.3.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "7.14.2",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@reach/router": "^1.3.4",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.6.1",
+    "bootstrap-icons": "^1.7.2",
+    "chart.js": "3.2.1",
+    "firebase": "^9.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "3.6.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.23",
+    "moment": "^2.29.1",
+    "multiselect-react-dropdown": "^2.0.17",
+    "node-sass": "6.0.0",
+    "perfect-scrollbar": "1.5.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.3",
+    "react-chartjs-2": "3.0.3",
+    "react-dialog": "^1.0.2",
+    "react-dom": "17.0.2",
+    "react-dropdown-overflow": "^1.7.2",
+    "react-hook-form": "^7.19.5",
+    "react-loader-spinner": "^4.0.0",
+    "react-modal": "^3.14.4",
+    "react-moment": "^1.1.1",
+    "react-notification-alert": "0.0.13",
+    "react-paginate": "^8.1.0",
+    "react-router": "5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^5.2.2",
+    "react-toastify": "^8.1.0",
+    "reactstrap": "8.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts  start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css",
+    "minify-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "optionalDependencies": {
+    "typescript": "4.2.4"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9"
+  }
+}

@@ -1,0 +1,17 @@
+@media print {
+    #printPageButton {
+      display: none;
+    }
+  }
+.Background{
+  background-color:rgb(60, 166, 207);
+  margin-left: 130px;
+  color:white
+}
+.FooterBackground{
+  background-color:rgb(60, 166, 207);
+  color:white
+}
+.center{
+  margin: 0 auto;
+}
